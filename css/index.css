@@ -6,11 +6,11 @@ body{
 	margin: 0px;
 	padding: 0px;
 	background-color: #333333;
+	font-family: "黑体"，"微软雅黑";
 }
 a,p,ul,li,dd,dt{
 	padding: 0px;
 	margin: 0px;
-	list-style: none;
 }
 h1,p,h2,h3{
 	color: white;

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/t.css">
+<head>
+	<title></title>
+</head>
+<body>
+<div id="header">
+	<div id="logo"><img src="image/new.png"></div>
+	<div id="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+            <li><a href="introduction.html">introduction</a></li>
+            <li><a href="project.html">project</a></li>
+            <li><a href="technology.html">new technology</a></li>
+            <li><a href="learning.html">learning</a></li>
+		</ul>
+	</div>
+</div>
+<div id="content">
+		<div id="title"><h1>Sport</h1></div>
+        <div id="news">
+        	<div id="newsone"><h2>公司项目</h2></div>
+        	<div id="newsone"><h2>导师项目</h2></div>
+        	<div id="newsone"><h2>个人业余开发</h2></div>
+        	<div id="newcontent">
+            <p>基于虚拟现实的，网站开发;学习结果:要善于快速学习，速度用上，学习必须必快，没必要考虑写框架，应该先用一个好的框架。</p>
+            </div>
+        	<div id="newcontent2">
+            <p>
+                电商网站；学习，知道如何去规划一个大型的网站，知道怎么去写一些细节的东西，入门了前端
+            </p>
+            </div>
+        	<div id="newcontent3">
+            <p>网页版打飞机;小型JQ库;ajax聊天室;这些都是兴趣使然，没有任何目的就是想去学习，就去跟着写了些！</p>
+            </div>
+        </div>
+
+</div>
+<div id="footer">
+作品拥有者：文艺
+</div>
+</body>
+<script type="text/javascript">
+    var Onews=document.getElementById('news');
+    var Oh2=Onews.getElementsByTagName('h2');
+    var Odiv=Onews.getElementsByTagName('div');
+    for (var m = 0; m < Oh2.length; m++) {
+        Oh2[m].index=m;
+        Oh2[m].onclick=function(){
+            for (var m = 3; m < Odiv.length; m++) {
+                Odiv[m].style.display='none';
+            }
+             Odiv[this.index+3].style.display='block';
+        }
+    }
+</script>
+</html>
