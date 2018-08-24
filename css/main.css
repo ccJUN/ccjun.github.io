@@ -1218,6 +1218,9 @@ pre .javascript .function {
 .use-motion .menu-item {
   opacity: 0;
 }
+.menu-item-active {
+  border-bottom: 1px solid #555;
+}
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
@@ -1822,7 +1825,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #36ff96;
+  background: #ff25ff;
 }
 .links-of-blogroll {
   font-size: 13px;
