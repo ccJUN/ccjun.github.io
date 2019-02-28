@@ -1,2 +1,0 @@
-# ccjun.github.io
-blog
